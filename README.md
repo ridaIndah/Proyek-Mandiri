@@ -10,3 +10,12 @@ File terdiri dari :
    hasil terbaik ada pada epoch ke-8
 5. File hasil2.txt berupa hasil percobaan kedua. Menggunakan checkpoint dari epoch ke-8 dari hasil percobaan pertama ; dan disertai dengan perubahan hyperparameter.
    Dicoba dengan 10 epoch, hasil terbaik pada epoch ke-2.  
+   
+Folder "data" :
+Berisi dataset Daily Dailogues (DD) : versi gabungan dan versi split data menjadi train, validation dan test
+
+Folder 'explore'
+Untuk explorasi dengan dataset yang sama menggunakan RoBERTa, tanpa unsur knowledge representation
+Berisi file :
+1. File preProcessSimpleTrans.ipynb : untuk preproses data menjadi bentuk yang siap untuk digunakan pada RoBERTa
+2. File SimpleTransformer.ipynb : untuk train dan validation model RoBERTa 
